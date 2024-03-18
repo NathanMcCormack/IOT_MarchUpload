@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('WebPageB.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensures footer stays at the bottom */
+        }
+
+        header {
+	    background-color: rgba(203, 195, 182, 0.925);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+	    flex-grow: 1;
+        }
+
+        .box {
+            flex: 1;
+            background-color: rgba(203, 195, 182, 0.719);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	    min-height: 400px;
+            line-height: 400px;
+	    margin: 10px;
+        }
+
+        footer {
+	    margin-top: auto;
+            text-align: center;
+            background-color: rgba(203, 195, 182, 0.925);
+            color: #fff;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Automated Blinds</h1>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <!-- Content for Box 1 -->
+        </div>
+        <div class="box">
+            <!-- Content for Box 2 -->
+        </div>
+        <div class="box">
+            <!-- Content for Box 3 -->
+        </div>
+    </div>
+
+    <footer>
+        © 2024 IOT Project - Nathan McCormack
+    </footer>
+</body>
+</html>
